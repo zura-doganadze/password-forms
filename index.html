@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container body-wrapper">
+        <div class="generate-password-wrapeer">
+            <h2>generate a <br> random pasword</h2>
+            <div class="generate-input-wrapper">
+                <input type="text" id="generate-password" placeholder="Password">
+                <img src="assets/img/copy.png" alt="copy icon" id="copy-password">
+            </div>
+            <button id="generate-button"><img src="assets/img/generate.png" alt="generate img icon">Generate Password</button>
+        </div>
+        <div class="show-password-wrapper">
+            <h2>hide and show <br>password</h2>
+            <div class="show-input-wrapper">
+                <input type="password" name="" id="show-password" placeholder="Password">
+                <img src="assets/img/eye-close.png" alt="eye icon" id="show-img">
+            </div>
+        </div>
+        <div class="strong-password-wrapper">
+            <h2>How strong is the <br>password</h2>
+            <div class="strong-input-wrapeer">
+                <input type="password" id="test-input" placeholder="Password">
+                <img src="assets/img/arrow.png" alt="arrow icon">
+            </div>
+            <p id="test-massage" class="">Password is <span id="strenght"></span></p>
+        </div>
+    </div>
+    
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
